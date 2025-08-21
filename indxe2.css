@@ -1,0 +1,44 @@
+/* 邊界歸零 */
+*{
+    margin: 0;
+}
+body {
+    background-color: #563D6E;
+}
+
+.wapw {
+    /* 版面寬度 */
+    width: 790px;
+    /* 左右自動抓距離 */
+    margin-left: auto;
+    margin-right: auto;
+    /*上下 左右 邊距 */
+    padding: 50px 20px;
+    background: #98886F;
+
+}
+figure{
+    width: 100%;
+    margin-bottom: 20px;
+    border:r;
+}
+img{
+    width: 100%
+    
+}
+figcaption{
+    /* 上留白 字體大小 顏色 */
+    color: rgb(99, 99, 85);
+    font-size: 14px; 
+    margin-top: 8px;
+}
+h1{
+    margin-bottom: 20px;
+}
+h3{
+    margin-bottom: 20px;
+}
+p{
+    /* 字行高 PX不得小於16 行數高 以數字表示 */
+    margin-bottom: 20px;
+line-height: 2;}
